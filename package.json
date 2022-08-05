@@ -1,0 +1,19 @@
+{
+  "name": "hashtag-extracter",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izuutech/HashtagExtracter.git"
+  },
+  "author": "izuutech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izuutech/HashtagExtracter/issues"
+  },
+  "homepage": "https://github.com/izuutech/HashtagExtracter#readme"
+}
