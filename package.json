@@ -21,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/izuutech/HashtagExtracter/issues"
   },
-  "homepage": "https://github.com/izuutech/HashtagExtracter#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "homepage": "https://github.com/izuutech/HashtagExtracter#readme"
 }
