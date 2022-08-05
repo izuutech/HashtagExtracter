@@ -1,6 +1,6 @@
 {
   "name": "hashtag-extracter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "## Description",
   "main": "index.js",
   "scripts": {
