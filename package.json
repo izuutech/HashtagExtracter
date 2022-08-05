@@ -10,6 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/izuutech/HashtagExtracter.git"
   },
+  "keywords": [
+    "hashtag",
+    "extracter",
+    "string mapping",
+    "automate string concatenation"
+  ],
   "author": "izuutech",
   "license": "ISC",
   "bugs": {
