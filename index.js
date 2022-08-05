@@ -1,4 +1,4 @@
-const wordsextracter = (starter, conditions, string) => {
+const extracter = (starter, conditions, string) => {
   let split = string.split("");
   for (let i = 0; i < split.length; i++) {
     for (let x = 0; x < conditions.length; x++) {
@@ -16,3 +16,5 @@ const wordsextracter = (starter, conditions, string) => {
     return el !== " ";
   });
 };
+
+export default extracter;
