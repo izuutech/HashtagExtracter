@@ -1,4 +1,5 @@
 const extracter = (starter, conditions, string) => {
+  let result = [];
   let split = string.split("");
   for (let i = 0; i < split.length; i++) {
     for (let x = 0; x < conditions.length; x++) {
@@ -12,8 +13,11 @@ const extracter = (starter, conditions, string) => {
   let aResult = newText.filter((el) => {
     return el !== "";
   });
-  return aResult.filter((el) => {
+  result = aResult.filter((el) => {
     return el !== " ";
+  });
+  return result.map((res) => {
+    return `#${res}`;
   });
 };
 
