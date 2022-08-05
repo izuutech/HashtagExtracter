@@ -14,6 +14,12 @@ Eg. if you specify "/" as the starter it would start all words in the array with
 
 ## Sample usage
 
+First install from npm via
+
+```bash
+npm install hashtag-extracter
+```
+
 ```bash
 
 import extracter from 'hashtag-extracter';
