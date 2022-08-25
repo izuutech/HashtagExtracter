@@ -9,7 +9,7 @@ const extracter = (starter, conditions, string) => {
     }
   }
   const text = split.join("");
-  const newText = text.split("#");
+  const newText = text.split(starter);
   let aResult = newText.filter((el) => {
     return el !== "";
   });
@@ -17,7 +17,7 @@ const extracter = (starter, conditions, string) => {
     return el !== " ";
   });
   return result.map((res) => {
-    return `#${res}`;
+    return `${starter}${res}`;
   });
 };
 
